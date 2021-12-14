@@ -1,40 +1,26 @@
-# Ecommerce CMS Made in Rails (AmaZing Deals)
+# AmaZing Deals Rails JS Ecommerce SPA
+[Check out the demo here🎬](https://drive.google.com/file/d/13ASOhMBeNM-JQFxZA1Wf2dqB4RqcwqO-/view?usp=sharing)
 
-## Description
-
-This is a Simple Ecommerce Application. Depending on their permissions, it allows users CRUD functionality across multiple objects involved in a large scale ecommerce marketplace applicaton -departments, categories, products, questions, answers, reviews, tags, carts, lineitems, orders, etc.
+Description
+This is a Simple Ecommerce Application. It allows users CRUD functionality across multiple objects involved in a large scale ecommerce marketplace applicaton -products, reviews, carts, lineitems, orders, etc.
 
 Similar to large scale counterparts, it is designed for straightforward use with minimal explanation required for the user.
 
-Omniauth Github authentication has been included for ease of access. See spec.md in the roort directory for a list of additional features.
 
-[Watch this video to understand how this app works!](https://drive.google.com/file/d/1JOP9_D0axoQ6ORh8GYn36hCvrs8_ABbD/view?usp=sharing)
+ ## Set-Up 
+   * Clone this repo into your local environment
+   * Cd into the repository you just cloned and run 'bundle install' in the command line to ensure all the gems are set in your local system 
+   * Run 'rails db:migrate' to migrate all the tables for the backend 
+   * Run 'rails db:seed' to create the seed data
+   * Run 'rails s' to start the server!
+   * From within you web browser, go to localhost:3000 to interact with the application as a user
 
-[Blog post about this app](https://dev.to/mwpenn94/rails-ecommerce-app-1of)
 
-## Built With
+Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/mwpenn94/AmaZing-Deals-Ecommerce-SPA. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
 
-Ruby 2.6.1
-Rails5 and ActiveRecord - The Ruby frameworks used
-SQLITE3 - The relational database used for development
-HTML5 & SCSS
-CoffeeScript
-Javascript
+License
+The gem is available as open source under the terms of the MIT License.
 
-## Installation
-
-Fork and clone this repo, then execute:
-
-    $ bundle install
-
-### Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/mwpenn94/Amazing-Deals-Ecommerce-Example. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/mwpenn94/Amazing-Deals-Ecommerce-App/blob/master/CODE_OF_CONDUCT.md).
-
-### License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-### Code of Conduct
-
-Everyone interacting in AmaZing Deals' project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/mwpenn94/Amazing-Deals-Ecommerce-App/blob/master/CODE_OF_CONDUCT.md).
+Code of Conduct
+Everyone interacting in AmaZing Deals' project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
