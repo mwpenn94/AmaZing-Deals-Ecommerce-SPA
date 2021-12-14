@@ -1,37 +1,6 @@
 # AmaZing Deals Rails JS Ecommerce SPA
 [Check out the demo here🎬](https://drive.google.com/file/d/13ASOhMBeNM-JQFxZA1Wf2dqB4RqcwqO-/view?usp=sharing)
 
-
-Life After Covid is a (SPA) single-page e-commerce web application that allows users to purchase PPE products. <br>
-The inspiration of this app came while brainstorming for ideas help people cope through this diffcult time during COVID. The products displayed on the app have become a neccessary part of our every day lives.
-
-## Tech Stack
-   * Ruby [2.6.1]
-   * Rails API [6.0.3.2]
-   * JavaScript
-   * PostgreSQL
-   * Active Record
-   * Rack Cors
-   * Active Model Serializers
-   * Bootstrap
-   * HTML/CSS
-
-## CRUD Operation
-  Users can:
-   * log in and/or create an account
-   * browse all products or by specific category
-   * see an error message if the account info input is wrong
-   * write reviews on products
-   * add items to their cart 
-   * update their cart by removing items 
-   * select specific quantity before adding items to cart
-   * review cart's total dollar amount before checkout
-
-## Take a Look! 📷
-
-<img src='FRONTEND/image/screenshot1.png'> </img>
-<img src='FRONTEND/image/screenshot2.png'> </img>
-
 Description
 This is a Simple Ecommerce Application. It allows users CRUD functionality across multiple objects involved in a large scale ecommerce marketplace applicaton -products, reviews, carts, lineitems, orders, etc.
 
