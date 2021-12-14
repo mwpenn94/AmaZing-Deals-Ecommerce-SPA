@@ -1,8 +1,6 @@
-# Life After Covid
-Check out the <a href="https://youtu.be/Krfr_3usRQk"> demo here </a>🎬
+# AmaZing Deals Rails JS Ecommerce SPA
+[Check out the demo here🎬](https://drive.google.com/file/d/13ASOhMBeNM-JQFxZA1Wf2dqB4RqcwqO-/view?usp=sharing)
 
-
-See <a href = "https://github.com/iannakim/Life-After-Covid-backend"> Backend Repo Here</a>
 
 Life After Covid is a (SPA) single-page e-commerce web application that allows users to purchase PPE products. <br>
 The inspiration of this app came while brainstorming for ideas help people cope through this diffcult time during COVID. The products displayed on the app have become a neccessary part of our every day lives.
@@ -34,34 +32,26 @@ The inspiration of this app came while brainstorming for ideas help people cope 
 <img src='FRONTEND/image/screenshot1.png'> </img>
 <img src='FRONTEND/image/screenshot2.png'> </img>
 
+Description
+This is a Simple Ecommerce Application. It allows users CRUD functionality across multiple objects involved in a large scale ecommerce marketplace applicaton -products, reviews, carts, lineitems, orders, etc.
+
+Similar to large scale counterparts, it is designed for straightforward use with minimal explanation required for the user.
+
 
  ## Set-Up 
-   * clone this <a href = "https://github.com/iannakim/Life-After-Covid-backend"> repo </a> into your local environment
-   * cd into the repository you just cloned and run 'bundle install' in the command line to ensure all the gems are set in your local system 
-   * run 'rails db:migrate' to migrate all the tables for the backend 
-   * run 'rails db:seed' to create the seed data
-   * run 'rails s' to start the server!
-   * open up another terminal and clone down this <a href = "https://github.com/iannakim/Mod-3-Project"> repo </a>
-   * cd into the frontend repo that you've just cloned
-   * run 'open index.html' to open up your browser and see the app
- 
-## Domain Model
-<img src='FRONTEND/image/ERD.png'> </img>
+   * Clone this repo into your local environment
+   * Cd into the repository you just cloned and run 'bundle install' in the command line to ensure all the gems are set in your local system 
+   * Run 'rails db:migrate' to migrate all the tables for the backend 
+   * Run 'rails db:seed' to create the seed data
+   * Run 'rails s' to start the server!
+   * From within you web browser, go to localhost:3000 to interact with the application as a user
 
-## Build Status
-* This project was completed in 5 days for the purpose of the project presentation.
 
-## Future Features for Improvement
-   * Improve design elements (look of buttons, background image, text manipulation)
-   * Create a chekout Function
-   * Add review average on each product
-   * Update user information
-   * Allow users to upload a profile picture
-   
-## Known Issues
-Please see issues
- 
-## Creators
- * [Anna Kim](https://github.com/iannakim)
- * [Franklin Bado](https://github.com/fbado66)
- 
+Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/mwpenn94/AmaZing-Deals-Ecommerce-SPA. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
+
+License
+The gem is available as open source under the terms of the MIT License.
+
+Code of Conduct
+Everyone interacting in AmaZing Deals' project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
