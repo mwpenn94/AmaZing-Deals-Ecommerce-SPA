@@ -1,0 +1,422 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require chosen
+ */
+ 
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ 
+ 
+ body {
+   padding-top: 70px;
+   padding-bottom: 30px;
+ }
+ 
+ .theme-dropdown .dropdown-menu {
+   position: static;
+   display: block;
+   margin-bottom: 20px;
+ }
+ 
+ .theme-showcase > p > .btn {
+   margin: 5px 0;
+ }
+ 
+ .center {
+   text-align: center;
+ }
+ 
+ .pic,
+ .info {
+   padding: 20px;
+   display: inline-block;
+   background-color: #eeeeee;
+   border-radius: 7px;
+   vertical-align: middle;
+   margin: 10px;
+ }
+ 
+ .info {
+   height: 290px;
+   text-align: left;
+ }
+ 
+ /* ---------------- Header Offer ----------------------- */
+.header-offer {
+  color: white;
+  background: #426876;
+  padding: 1%
+}
+
+/* Navbar  */
+.logo {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  margin-top: -25px; 
+  /* text-shadow: 1px 1px ; */
+  margin-right: 2%
+}
+
+
+/* Category name display  */
+
+.category-name {
+    float: left;
+    display: block;
+    margin-left: 4%;
+    margin-top: 4%;
+    width: 250px;
+    position: absolute
+}
+
+.category-name h1 {
+  font-size: 30px;
+  text-shadow: 1px 1px;
+    
+}
+
+
+
+
+/* Styling the card that holds a product on the display all products  */
+.col.mb-4 {
+  margin: 5% 0;
+}
+
+
+/* -----Review Container ----------------  */
+.reviews {
+  margin-top: 10%;
+}
+
+
+#ratingAndReview {
+  padding-top: 30px;
+  border-top: 1px solid#DCDCDC;
+  margin-bottom: 8%;
+  font-size: 26px;
+}
+
+#review-holder {
+  margin-top: -4%;
+}
+
+#nickname {
+  margin-top: 4%;
+}
+
+.single-review {
+  padding: 0 10%;
+}
+
+#new-review { 
+  padding: 0 20%;
+  /* margin-left: 30%; */
+  margin-top: 6%;
+  width: 100%
+}
+
+.rateThisProduct {
+  padding-top: 4%;
+}
+
+#containerOFstars {
+  padding-bottom: 4%;
+}
+
+
+/* --------overwritting bootstrap defaults------------------------  */
+
+/* container that holds the grid structure  */
+
+#grid-holder {
+  margin-top: 12%;
+  padding: 0 2%;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+
+.reviewContainer {
+  margin-right: 15%;
+}
+
+.card {
+  border: none
+}
+
+.card-title {
+  text-align: center;
+  padding-top: 3%;
+  text-shadow: 0 0 black;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.mx-auto {
+  width: 150px;
+}
+
+.card-body  {
+  width: 36vw;
+}
+
+.card-img-top {
+  width: 256px;
+}
+
+
+.card img {
+  width: 256px;
+  margin-left: 15%;
+  margin-top: 4%;
+}
+
+.card-deck {
+  margin-top: 8%;
+}
+
+
+#product-info {
+padding: 7% 0;
+}
+
+.cart-title {
+  float:left; 
+  /* font-weight: bolder; */
+  margin-left: 8%;
+  margin-bottom: -3%;
+  font-size: 30px;
+  text-shadow: 1px 1px
+}
+
+.product-list {
+  width: 50%;
+}
+
+.total-info {
+  float: right;
+  position: relative;
+  top: -200px;
+  margin-right: 10%
+}
+
+.singular-product {
+  padding-top: 6%
+}
+
+#subtotal {
+  font-size: 23px
+}
+
+#estimated-total {
+  font-size: 25px;
+  font-weight: bold;
+}
+.mx-auto {
+  padding-bottom: 8%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* height: 100% */
+}
+
+/* ----------------------top-navbar ----------------------------- */
+.top-bar {
+  float: right;
+  margin-right: 10px;
+  margin-top: -25px; 
+}
+
+.top-bar a {
+  padding: 0 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar {
+margin-left: 2%;
+}
+
+.category {
+  margin-bottom: 4px;
+}
+
+#nav-bar-items a {
+  float: left;
+  }
+
+.nav-bar a {
+padding: 0 10px;
+color: white;
+text-decoration: none;
+}
+
+/* ----------------sidebar ----------------------------------------- */
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+
+body {
+background: #fff;
+font-family: 'open-sans-bold', sans-serif;
+font-size: 18px;
+text-align: center;
+}
+
+
+section {
+height: 100vh;
+}
+
+/* Screens Settings */
+#screen1 {
+/*  background-image: url("image/water_banner.png"); */
+  height:1024px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+
+#screen1 p {
+padding-top: 200px;
+}
+
+.hide {
+display: none;
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+
+/* ----------------Container that holds everything --------------- */
+.container {
+  width: 100%;
+  padding-right: 0!important;
+  padding-left: 40px;
+  transition: margin-left 0.5s;
+  margin-left: 30px;
+}
+
+/* .col.mb-4 {
+  padding: 4%;
+} */
+
+/* -----------------Review Form ----------------------- */
+.fa-star-o {
+  padding: 3px;
+}
+
+
+/* ------------------ Heading ----------------------------------- */
+.main-container {
+    padding: 20px 0;
+}
+
+.main-container h2{
+    text-align: center
+}
+
+.main-container p{
+  text-align: center
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+
+}
+
+@media screen and (max-height: 600px) {
+  .top-bar {margin-top: -80px!important;}
+
+}
+
+/* -----------------CART PAGE ---------------------------- */
+.cart-holder {
+margin-left: 10%;
+}
+
+.total-info {
+margin-left: 30px
+}
+
+#horizontal-line {
+border-bottom: 1px solid #111;
+}
+
+
+
+/* ----------login page -----------------  */
+
+#login-button {
+  width: 15%;
+}
+
+.no-account {
+  margin-top: 3%;
+}
+
+
+
+#sign-up-button {
+  width: 32%
+}
+ 
+.sign-up-form {
+  text-align: right;
+  margin-right: 25%;
+}
+
+.sign-up-form label {
+  padding: 5px
+}
+
+
+
+
+
+.logo-leftImage {
+  margin-top: 15px;
+  /* width: 50%; */
+  /* position: absolute; */
+  left: 0;
+  height: 300px
+}
+
+.logo-rightImage {
+  margin-top: 15px;
+  /* width: 50%; */
+  /* position: absolute; */
+  right: 0;
+  height: 300px
+}
+
+.logoPage-hero {
+  margin-top: 3%!important
+}
