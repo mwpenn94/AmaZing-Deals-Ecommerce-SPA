@@ -1,7 +1,7 @@
 # AmaZing Deals Rails JS Ecommerce SPA
 [Check out the demo here🎬](https://drive.google.com/file/d/13ASOhMBeNM-JQFxZA1Wf2dqB4RqcwqO-/view?usp=sharing)
 
-Description
+## Description
 This is a Simple Ecommerce Application. It allows users CRUD functionality across multiple objects involved in a large scale ecommerce marketplace applicaton -products, reviews, carts, lineitems, orders, etc.
 
 Similar to large scale counterparts, it is designed for straightforward use with minimal explanation required for the user.
@@ -16,11 +16,11 @@ Similar to large scale counterparts, it is designed for straightforward use with
    * From within you web browser, go to localhost:3000 to interact with the application as a user
 
 
-Contributing
+## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/mwpenn94/AmaZing-Deals-Ecommerce-SPA. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
 
-License
+## License
 The gem is available as open source under the terms of the MIT License.
 
-Code of Conduct
+## Code of Conduct
 Everyone interacting in AmaZing Deals' project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
